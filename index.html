@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Universo</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/a4467a4411.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+    integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <style>
+        /* Aquí puedes agregar tus estilos personalizados */
+  </style>
+</head>
+
+<body>
+    <body>
+       
+        <div class="planet-container">
+            <img src="img/planeta rojo azul.png" alt="planeta" class="planet-image">
+        </div>
+        <div class="menu">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">EstoEsAboutUs</a></li>
+                    <li><a href="#">EstoEsWhatWeDo</a></li>
+                    <li><img src="img/logonegro150px.png" alt="logonegro"></li>
+                    <li><a href="#">EstoEsOurWork</a></li>
+                    <li><a href="#">EstoEsOurContact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div id="video-container">        
+            
+            <video controls width="800" height="100%" poster="img/logonegro42px.png" autoplay muted>
+                <source src="video/ESTO ES MARTE ANIMACION 71s.mp4" type="video/mp4" />
+                <!-- fallback for browsers that don't support mp4 -->
+                <source src="video/ESTO ES MARTE ANIMACION 71s.mp4" type="video/webm" />
+                <!-- specifying subtitle files -->
+                <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" />
+                <track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian" />
+                <a href="video/ESTO ES MARTE ANIMACION 71s.mp4">download video</a>
+            </video>
+
+        </div> 
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    
+        <div>
+            <img src="img/jupiter.png" alt="" class="planeta1 rellax">
+            <img src="img/gris.png" alt="" class="planeta2 rellax" height="70%">
+            <img src="img/saturno 0,5.png" alt="" class="planeta3 rellax" height="60%">
+            <img src="img/tierra pq.png" alt="" class="planeta4 rellax" height="50%">
+            <img src="img/planeta verde.png" alt="" class="planeta5 rellax" height="30%">
+            <img src="img/estrella sol.png" alt="" class="sol rellax" height="130%">
+        </div>  
+    
+        
+       <main class="seccion2">
+            <div class="content">
+                <div class="content__container">
+                    <h2 class="subtitle">Marketing</h2>
+                    <h3>Our marketing services are designed to help you build a strong brand identity, reach your target audience, and drive sales.</h3>
+                </div>
+            </div>
+        </main>
+      
+        <div class="seccion3">
+            <h2 class="subtitle">Advertising</h2>
+            <h3>Our advertising services are focused on creating impactful and memorable campaigns that capture the
+                attention of your target audience.</h3>
+        </div>
+    
+    
+        <div class="Seccion4">
+            <h2 class="subtitle">Research</h2>
+            <h3>Our research services provide valuable insights that help you make informed decisions about your brand.
+            </h3>
+        </div>
+    
+        <div class="Seccion5">
+            <h2 class="subtitle">Tecnology</h2>
+            <h3>Our technology services are designed to help you leverage the latest digital technologies to achieve your
+                business objectives:
+            </h3>
+        </div>
+    
+        <div class="Seccion6">
+            <h2 class="subtitle">Experiences</h2>
+            <h3>Our experiences services are focused on creating memorable and engaging brand experiences that connect with
+                your audience.
+            </h3>
+        </div>
+                   
+
+        <div>
+            <div class="logoblanco-container">
+                <nav>
+                    <a href="#" class="logo">
+                        <img src="img/logotextobalnco.png" alt="Logo">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js"
+            integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+        <script>
+
+            const myVideo = document.createElement("video");
+
+            if (myVideo.canPlayType("video/mp4")) {
+            myVideo.setAttribute("src", "videofile.mp4");
+            } else if (myVideo.canPlayType("video/webm")) {
+            myVideo.setAttribute("src", "videofile.webm");
+            }
+
+
+            
+            // Accepts any class name
+            var rellax = new Rellax('.rellax');
+    
+            // Detectar el evento de scroll
+            window.addEventListener("scroll", function () {
+    
+                // Obtener la posición vertical actual del scroll
+                var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    
+                // Obtener la altura de la ventana visible
+                var windowHeight = window.innerHeight;
+    
+                // Calcular la posición de activación
+                var triggerPosition = windowHeight * 0.5;
+    
+                // Verificar si la posición de scroll ha alcanzado la posición de activación
+                if (scrollPosition > triggerPosition) {
+                    // Agregar la clase "active" al contenedor del planeta
+                    document.querySelector(".planet-container").classList.add("active");
+                } else {
+                    // Remover la clase "active" del contenedor del planeta
+                    document.querySelector(".planet-container").classList.remove("active");
+                }
+           
+            });
+    
+    
+        </script>
+
+        <script src="script.js"></script>
+    
+    
+    </body>
+    
+    
+</body>
+

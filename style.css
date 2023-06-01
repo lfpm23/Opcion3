@@ -1,0 +1,455 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;700&display=swap');
+
+plante baja
+* {
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(img/Fondolargo3.png);
+  background-attachment: scroll;
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+  cursor: url(img/cursor-rojo.png), auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  
+}
+
+h3 {
+  width: 400px;
+  
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+.subtitle {
+  font-weight: bold; /* Hace que el subtitulo sea más grueso */
+  width: 150px; /* Establece el ancho de la caja en 150px */
+}
+
+#logonegro {
+  position: absolute;
+  justify-content: center;
+  height: 5vh;
+  z-index: 3;
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  50% {
+    transform: translate(-50%, -40%);
+  }
+  100% {
+    transform: translate(-50%, -50%);
+    
+  }
+}
+
+.planet-container {
+  position: absolute;
+  top: -85%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  z-index: -3;
+  animation: slide-down 4s ease-in-out forwards;
+  
+}
+
+.planet-image {
+  width: 1500px;
+  height: 1500px;
+}
+
+.menu {
+  display: block;
+  justify-content: space-between;
+   
+}
+
+.menu .navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 6vh;
+  justify-content: center;
+}
+
+.menu .navbar ul li {
+  margin: 20px; /* Espacio entre elementos de lista */
+ 
+}
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+
+.logoblanco-container {
+  position: absolute;
+  margin-top: 240%;
+}
+
+.planeta1 {
+  position: absolute;
+  z-index: -1;
+  top: 340%;
+  right: 74%;
+}
+
+.planeta2 {
+  position: absolute;
+  z-index: 1;
+  top: 175%;
+  right: 80%;
+}
+
+.planeta3 {
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  left: 70%;
+}
+
+.planeta4 {
+  position: absolute;
+  z-index: -1;
+  top: 250%;
+  left: 80%;
+  filter: blur(1px);
+}
+
+.planeta5 {
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  right: 60%;
+  filter: blur(3px); /* Ajusta el valor de desenfoque según tus necesidades */
+}
+
+.sol {
+  position: absolute;
+  z-index: 1;
+  top: 490%;
+  left: 65%;
+}
+
+.main-seccion2{
+  position: absolute;
+  top: 140%;
+  left: 30%;
+}
+
+.seccion2 {
+  margin-top: 400px;
+  margin-left: 820px;
+  text-align: justify;
+}
+
+.seccion2 .subtitle {
+  font-weight: bold;
+}
+* {
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(img/Fondolargo3.png);
+  background-attachment: scroll;
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+  cursor: url(img/cursor-rojo.png), auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  
+}
+
+h3 {
+  width: 400px;
+  
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+.subtitle {
+  font-weight: bold; /* Hace que el subtitulo sea más grueso */
+  width: 150px; /* Establece el ancho de la caja en 150px */
+}
+
+#logonegro {
+  position: absolute;
+  justify-content: center;
+  height: 5vh;
+  z-index: 3;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;700&display=swap');
+
+
+* {
+  text-transform: capitalize;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+}
+
+body {
+  background-image: url(img/Fondolargo3.png);
+  background-attachment: scroll;
+  background-color: black;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center center;
+  cursor: url(img/cursor-rojo.png), auto;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 40px;
+  
+}
+
+h3 {
+  width: 400px;
+  
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+.subtitle {
+  font-weight: bold; /* Hace que el subtitulo sea más grueso */
+  width: 150px; /* Establece el ancho de la caja en 150px */
+}
+
+#logonegro {
+  position: absolute;
+  justify-content: center;
+  height: 5vh;
+  z-index: 3;
+}
+.menu {
+  display: block;
+  justify-content: space-between;
+   
+}
+
+.menu .navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 6vh;
+  justify-content: center;
+}
+
+.menu .navbar ul li {
+  margin: 20px; /* Espacio entre elementos de lista */
+ 
+}
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  
+}
+
+.logoblanco-container {
+  position: absolute;
+  margin-top: 240%;
+}
+
+.planeta1 {
+  position: absolute;
+  z-index: -1;
+  top: 340%;
+  right: 74%;
+}
+
+.planeta2 {
+  position: absolute;
+  z-index: 1;
+  top: 175%;
+  right: 80%;
+}
+
+.planeta3 {
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  left: 70%;
+}
+
+.planeta4 {
+  position: absolute;
+  z-index: -1;
+  top: 250%;
+  left: 80%;
+  filter: blur(1px);
+}
+
+.planeta5 {
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  right: 60%;
+  filter: blur(3px); /* Ajusta el valor de desenfoque según tus necesidades */
+}
+
+.sol {
+  position: absolute;
+  z-index: 1;
+  top: 490%;
+  left: 65%;
+}
+
+.main-seccion2{
+  position: absolute;
+  top: 140%;
+  left: 30%;
+}
+
+.planet-container {
+  position: absolute;
+  top: -85%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+  z-index: -3;
+  animation: slide-down 4s ease-in-out forwards;
+  
+}
+
+.planet-image {
+  width: 1500px;
+  height: 1500px;
+}
+
+.menu {
+  display: block;
+  justify-content: space-between;
+   
+}
+
+.menu .navbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 6vh;
+  justify-content: center;
+}
+
+.menu .navbar ul li {
+  margin: 20px; /* Espacio entre elementos de lista */
+ 
+}
+
+#video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  
+}
+
+.logoblanco-container {
+  position: absolute;
+  margin-top: 240%;
+}
+
+.planeta1 {
+  position: absolute;
+  z-index: -1;
+  top: 340%;
+  right: 74%;
+}
+
+.planeta2 {
+  position: absolute;
+  z-index: 1;
+  top: 175%;
+  right: 80%;
+}
+
+.planeta3 {
+  position: absolute;
+  z-index: 1;
+  top: 130%;
+  left: 70%;
+}
+
+.planeta4 {
+  position: absolute;
+  z-index: -1;
+  top: 250%;
+  left: 80%;
+  filter: blur(1px);
+}
+
+.planeta5 {
+  position: absolute;
+  z-index: -1;
+  top: 100%;
+  right: 60%;
+  filter: blur(3px); /* Ajusta el valor de desenfoque según tus necesidades */
+}
+
+.sol {
+  position: absolute;
+  z-index: 1;
+  top: 490%;
+  left: 65%;
+}
+
+.main-seccion2{
+  position: absolute;
+  top: 140%;
+  left: 30%;
+}
+
+.seccion2 {
+  margin-top: 400px;
+  margin-left: 820px;
+  text-align: justify;
+}
+
+.seccion2 .subtitle {
+  font-weight: bold;
+}
